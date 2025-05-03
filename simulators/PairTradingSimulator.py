@@ -5,7 +5,7 @@ import os
 
 
 class PairTradingSimulator:
-    def __init__(self, data_dir, save_dir="report_data"):
+    def __init__(self, data_dir, save_dir="report_data_corr_method"):
         self.data_dir = data_dir
         self.save_dir = save_dir
         self.beta = None

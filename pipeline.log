@@ -1,0 +1,17 @@
+2025-05-01 16:57:10,295 — INFO — Pipeline started
+2025-05-01 16:57:36,096 — INFO — Data collected.
+2025-05-01 16:57:50,320 — INFO — Pipeline started
+2025-05-01 17:59:01,165 — INFO — Pipeline started
+2025-05-01 17:59:32,543 — INFO — Data collected.
+2025-05-01 18:25:31,500 — INFO — Cointegration analysis done.
+2025-05-01 18:25:33,045 — INFO — Evaluation done.
+2025-05-01 18:25:33,261 — ERROR — Telegram photo error: [Errno 2] No such file or directory: '/Users/papaskakun/PycharmProjects/PythonProject/delta_distribution.png'
+2025-05-01 18:25:33,262 — ERROR — Pipeline failed: [Errno 2] No such file or directory: '/top_1pct_significant_pairs.csv'
+2025-05-01 18:25:33,586 — INFO — Pipeline finished in 26.54 minutes.
+2025-05-01 18:50:36,915 — INFO — Pipeline started
+2025-05-01 18:51:11,046 — INFO — Data collected.
+2025-05-01 19:17:31,742 — INFO — Cointegration analysis done.
+2025-05-01 19:17:33,161 — INFO — Evaluation done.
+2025-05-01 19:17:33,302 — ERROR — Telegram photo error: [Errno 2] No such file or directory: '/Users/papaskakun/PycharmProjects/PythonProject/delta_distribution.png'
+2025-05-01 19:17:34,481 — INFO — Simulation complete.
+2025-05-01 19:17:34,821 — INFO — Pipeline finished in 26.97 minutes.

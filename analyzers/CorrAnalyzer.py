@@ -1,15 +1,11 @@
 import os
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 from tqdm import tqdm
 
-from FuturesDataCollector import FuturesDataCollector
-from PairSpreadPlotter import PairSpreadPlotter
 
-
-class PairTradingAnalyzer:
-    def __init__(self, data_dir, corr_threshold=0.8, zscore_threshold=2, min_data_points=100):
+class CorrAnalyzer:
+    def __init__(self, data_dir, corr_threshold=0.9, zscore_threshold=2, min_data_points=100):
         self.data_dir = data_dir
         self.corr_threshold = corr_threshold
         self.zscore_threshold = zscore_threshold
@@ -78,7 +74,7 @@ class PairTradingAnalyzer:
         self.signals = signals
         print(f"📊 Найдено {len(signals)} сильных расхождений.")
 
-    def save_signals(self, filename='signals.csv'):
+    def save_signals(self, filename='corr_signals.csv'):
         if self.signals:
             df_signals = pd.DataFrame(self.signals)
             df_signals['abs_zscore'] = df_signals['zscore'].abs()
